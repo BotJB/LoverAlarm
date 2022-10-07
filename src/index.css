@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.primary-btn{
+  color:#fff;
+  text-transform: capitalize;
+  padding:12px 30px;
+  border-radius: 30px;
+  border:none;
+  background-color: blue;
+}
+
+/* ----------Making a hover event for primary-btn-------------------------- */
+.primary-btn:hover{
+  background-color: red;
+}
+
+
+
+
+
+
+/* -----Code for Navbar----- */
+nav{
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.logo-container{
+  width: 150px;
+  margin: 20px;
+}
+.logo{
+  width: 100%;
+}
+.nav-btn{
+  margin: 30px;
+  margin-left:10px;
+  font-family: 'Oswald';
+  font-size: 20px;
+  border-radius:10px;
+  border: none;
+  padding: 10px;
+
+}
+
+/* -------Hpme page--------- */
+
+.overlay{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #D3D3D3;
+}
